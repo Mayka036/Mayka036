@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตัวอย่างที่ 1-1 โครงสร้างพื้นฐานของ CSS</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <style>
+        h1 {
+            color:brown;  /* เปลื่ยนสีหัวเรื่องใหญ่เป็นสี่น้ำตาล*/
+            font-size: 24pt;
+        }
+        div.myid{
+            color: white;
+            background-color: red;
+            display: block;
+            
+
+
+        }
+        p {
+            color: blue;
+            font-size: 16pt;
+            background-color: white;
+        }
+
+        h2 {
+            color: darkgreen;
+            font-size: 80pt;
+        }
+        
+        #myID{  /* 100*/
+            font-size: 8pt;
+
+        }
+        .myclass{ /* 10*/
+            font-size: 50pt;
+        }
+        div p { /* 2*/
+            font-size: 40pt;
+            color: rgb(138, 138, 223);
+        }
+        p.myclass{ /* 101*/
+            font-size: 10pt;
+            color: rgb(226, 0, 0);
+        }
+        p { /* 1*/
+            color: rgb(87, 197, 155);
+            font-size: 16pt;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <center><h1>ตัวอย่าง 1-1 โครงสร้างพื้นฐานของ CSS</h1></center>
+    <div class="myclass">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing <span style="background-color: yellow;">ab veritatis</span> ab veritatis ratione id sed, quod iure illo itaque ad natus repellendus est placeat quisquam asperiores, excepturi aut? Quibusdam, corporis? Maxime.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quaerat culpa iure reprehenderit possimus a quod beatae exercitationem optio similique, labore repellat id autem eos! Perferendis aut reiciendis ullam quia.</p>
+        <h2 style="font-size: 40pt;">การใช้งาน External Style</h2>
+    </div>  
+</body>
+</html>
